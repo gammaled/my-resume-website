@@ -23,5 +23,20 @@
 ## UX (User Experience) 
 
 ### Project Goals
-The **goal** for this project is to display my professional experience, skills and personal qualities to **potential** employers or anyone interested in learning about me.
+The **goal** for this project is to display professional experience, skills and personal qualities to **potential** employers or anyone interested in learning about me.
+
+### User Goals 
+* To have a look at site owner's technical skills, education and professional experience.
+* To be able to contact site owner for more information and to express interest.
+* Have a look at site owner's portfolio of projects.
+
+### User Stories 
+* To be able to contact site owner to express interest and to make enquiries.
+* To **easily** be able have check out site owner's porfolio of projects: look at the deployed projects and source code on Github.
+* to be able to **easily** find site owner's information about their professional experience, education and skills.
+
+## Site Owner Goals 
+* To be able to make it as **easy** as possible for potential employers to get in contact for enquiries and to express interest.
+* To be able to make it as **easy** as possible for potential employers to find information about my professional exprience, skills and education.
+* To be able to log into the site in order to create, display, update and delete information. 
 
