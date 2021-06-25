@@ -52,3 +52,11 @@ I used the [Coolors](https://coolors.co/) colour generator
 to find the colour scheme that suited best for the project. 
 
 ![Color Scheme](wireframes/my-resume-site.png)
+
+### Wireframing 
+
+For **wireframing**, I used [Balsamiq](https://balsamiq.com/). I used it to create **simple** wireframes 
+showing the basic structure on which I built the website on. Some features maybe removed or added during 
+development. 
+
+View wireframes for each device here:
