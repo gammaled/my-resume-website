@@ -45,3 +45,10 @@ The **goal** for this project is to display professional experience, skills and 
 **Requirements**
 * **Navigate** the website using the navbar that sends user to the requested page.
 * A **contact form** that allows user to input **contact details and enquiries**.
+
+**Colours**
+
+I used the [Coolors](https://coolors.co/) colour generator 
+to find the colour scheme that suited best for the project. 
+
+![Color Scheme](wireframes/my-resume-site.png)
