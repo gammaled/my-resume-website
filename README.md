@@ -40,3 +40,8 @@ The **goal** for this project is to display professional experience, skills and 
 * To be able to make it as **easy** as possible for potential employers to find information about my professional exprience, skills and education.
 * To be able to log into the site in order to create, display, update and delete information. 
 
+### User Requirements and Expectations 
+
+**Requirements**
+* **Navigate** the website using the navbar that sends user to the requested page.
+* A **contact form** that allows user to input **contact details and enquiries**.
