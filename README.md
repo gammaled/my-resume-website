@@ -33,7 +33,7 @@ The **goal** for this project is to display professional experience, skills and 
 ### User Stories 
 * To be able to contact site owner to express interest and to make enquiries.
 * To **easily** be able have check out site owner's porfolio of projects: look at the deployed projects and source code on Github.
-* to be able to **easily** find site owner's information about their professional experience, education and skills.
+* To be able to **easily** find site owner's information about their professional experience, education and skills.
 
 ## Site Owner Goals 
 * To be able to make it as **easy** as possible for potential employers to get in contact for enquiries and to express interest.
@@ -86,3 +86,45 @@ View wireframes for each device here:
 **Features** that have been **implemented**:
 
 **Features** that will be **implemented** in the **future**:
+
+## Testing 
+---
+
+### Contact Site Owner
+**User Story: To be able to contact site owner to express interest and to make enquiries.**
+
+* **Plan**<br>
+
+* **Implementation**<br>
+
+* **Test**<br>
+
+* **Results**<br>
+
+* **Verdict**<br>
+
+### Check out porfolio
+**User Story: To easily be able have check out site owner's porfolio of projects: look at the deployed projects and source code on Github.**
+
+* **Plan**<br>
+
+* **Implementation**<br>
+
+* **Test**<br>
+
+* **Results**<br>
+
+* **Verdict**<br>
+
+### Contact Site Owner
+**User Story: To be able to easily find site owner's information about their professional experience, education and skills.**
+
+* **Plan**<br>
+
+* **Implementation**<br>
+
+* **Test**<br>
+
+* **Results**<br>
+
+* **Verdict**<br>
