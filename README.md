@@ -21,3 +21,7 @@
     + [Special Thanks](#special-thanks)
 
 ## UX (User Experience) 
+
+### Project Goals
+The **goal** for this project is to display my professional experience, skills and personal qualities to **potential** employers or anyone interested in learning about me.
+
