@@ -80,3 +80,9 @@ View wireframes for each device here:
 * [Gitpod](https://gitpod.io/workspaces/)
 * [JQuery](https://jquery.com/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+
+## Features 
+---
+**Features** that have been **implemented**:
+
+**Features** that will be **implemented** in the **future**:
