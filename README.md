@@ -60,3 +60,23 @@ showing the basic structure on which I built the website on. Some features maybe
 development. 
 
 View wireframes for each device here:
+* [Desktop](wireframes/Desktop.png)
+* [Tablet](wireframes/Mobile.png)
+* [Mobile](wireframes/Tablet.png)
+
+## Technologies Used 
+---
+**Languages**
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [Python](https://www.python.org/)
+
+**Tools & Libraries**
+
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Gitpod](https://gitpod.io/workspaces/)
+* [JQuery](https://jquery.com/)
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
