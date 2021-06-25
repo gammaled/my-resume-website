@@ -128,3 +128,6 @@ View wireframes for each device here:
 * **Results**<br>
 
 * **Verdict**<br>
+
+## Bugs 
+---
