@@ -22,6 +22,12 @@ def go_homepage():
     return render_template("home.html")
 
 
+@app.route("/skills")
+def get_skills():
+    skills = mongo.db.skills.find()
+    return render_template("skills.html", skills=skills)
+
+
 @app.route("/education")
 def get_education():
     education = mongo.db.education.find()
