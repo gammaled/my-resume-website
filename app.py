@@ -31,11 +31,11 @@ def get_skills():
     return render_template("skills.html", languages=languages, libraries=libraries, frameworks=frameworks)
 
 
-@app.route("/experience")
-def get_experience():
-    experience = mongo.db.experience.find()
+@app.route("/work-experience")
+def get_work_experience():
+    work_experience = mongo.db.work_experience.find()
 
-    return render_template("experience.html", experience=experience)
+    return render_template("work-experience.html", work_experience=work_experience)
 
 
 @app.route("/education")
