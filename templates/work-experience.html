@@ -2,6 +2,8 @@
 {% block content %}
 
     {% for work in work_experience %}
-        {{ work.date }}
-    {% endfor %}
+        {{ work.date }}<br>
+        {{ work.role }}<br>
+        {{ work.company }}<br>
+    {% endfor %}<br>
 {% endblock %}
