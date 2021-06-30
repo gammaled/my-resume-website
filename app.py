@@ -45,6 +45,10 @@ def get_education():
     return render_template("education.html", education=education)
 
 
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"), 
             port=int(os.environ.get("PORT")),
