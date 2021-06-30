@@ -27,13 +27,21 @@ def get_skills():
     languages = mongo.db.languages.find()
     libraries = mongo.db.libraries.find()
     frameworks = mongo.db.frameworks.find()
-    
+
     return render_template("skills.html", languages=languages, libraries=libraries, frameworks=frameworks)
+
+
+@app.route("/experience")
+def get_experience():
+    experience = mongo.db.experience.find()
+
+    return render_template("experience.html", experience=experience)
 
 
 @app.route("/education")
 def get_education():
     education = mongo.db.education.find()
+
     return render_template("education.html", education=education)
 
 
