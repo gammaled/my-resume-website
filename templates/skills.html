@@ -1,4 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
 
+    {% for language in languages %}
+        {{ language.name }}<br>
+    {% endfor %}<br>
+
+    {% for library in libraries %}
+        {{ library.name }}<br>
+    {% endfor %}<br>
+
+    {% for framework in frameworks %}
+        {{ framework.name }}<br>
+    {% endfor %}<br>
+
 {% endblock %}
