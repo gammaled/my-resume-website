@@ -23,9 +23,12 @@ def go_homepage():
 
 
 @app.route("/skills")
-def get_languages():
+def get_skills():
     languages = mongo.db.languages.find()
-    return render_template("skills.html", languages=languages)
+    libraries = mongo.db.libraries.find()
+    frameworks = mongo.db.frameworks.find()
+    
+    return render_template("skills.html", languages=languages, libraries=libraries, frameworks=frameworks)
 
 
 @app.route("/education")
