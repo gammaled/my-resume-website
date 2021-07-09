@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <div id="education" class="col-12 mx-auto text-center">
+<div id="education" class="col-12 mx-auto text-center">
     {% for school in education %}
-        {{ school.year }}<br>
-        {{ school.name }}<br>
-        {{ school.school }}<br>
-    {% endfor %}
+    <div class="col-12 mb-5">
+    {{ school.year }}<br>
+    {{ school.name }}<br>
+    {{ school.school }}<br>
     </div>
+{% endfor %}
+</div>
+
 
 {% endblock %}
