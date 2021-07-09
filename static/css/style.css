@@ -13,3 +13,11 @@ body {
 #contact-link:hover {
     color: #fff;
 }
+
+#admin-link {
+    color: #fff;
+}
+
+#admin-link:hover {
+    color: black;
+}
