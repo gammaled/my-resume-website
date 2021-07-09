@@ -4,11 +4,11 @@
 <div id="education" class="col-12 text-center">
     {% for school in education %}
     <div class="col-12 mb-5">
-    {{ school.year }}<br>
-    {{ school.name }}<br>
-    {{ school.school }}<br>
+        <p class="mb-1">{{ school.year }}</p><br>
+        <h3>{{ school.name }}</h3><br>
+        {{ school.school }}<br>
     </div>
-{% endfor %}
+    {% endfor %}
 </div>
 
 
