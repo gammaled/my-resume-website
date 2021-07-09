@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 
+<div class="col-12 text-center">
     {% for work in work_experience %}
+    <div class="col-12 mb-5">
         {{ work.date }}<br>
         {{ work.role }}<br>
         {{ work.company }}<br>
+    </div>
     {% endfor %}<br>
+</div>
 {% endblock %}
