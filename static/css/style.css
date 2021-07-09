@@ -21,3 +21,11 @@ body {
 #admin-link:hover {
     color: black;
 }
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
