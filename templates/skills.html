@@ -1,14 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
 
+    <h2>Languages</h2>
     {% for language in languages %}
         {{ language.name }}<br>
     {% endfor %}<br>
 
+    <h2>Libraries</h2>
     {% for library in libraries %}
         {{ library.name }}<br>
     {% endfor %}<br>
 
+    <h2>Frameworks</h2>
     {% for framework in frameworks %}
         {{ framework.name }}<br>
     {% endfor %}<br>
