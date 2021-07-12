@@ -45,6 +45,11 @@ def get_education():
     return render_template("education.html", education=education)
 
 
+@app.route("/portfolio")
+def get_portfolio():
+    return render_template("portfolio.html")
+
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
