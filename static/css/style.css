@@ -31,6 +31,7 @@ body::before {
 * Infinite Grid Background Animation
 * By Fotis Koutoupas
 * Github: https://github.com/kootoopas
+* Found on https://www.sliderrevolution.com/resources/css-animated-background/
 */
 @-webkit-keyframes bg-scrolling-reverse {
     100% {
