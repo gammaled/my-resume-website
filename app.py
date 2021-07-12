@@ -47,7 +47,9 @@ def get_education():
 
 @app.route("/portfolio")
 def get_portfolio():
-    return render_template("portfolio.html")
+    portfolio = mongo.db.education.find()
+
+    return render_template("portfolio.html", portfolio=portfolio)
 
 
 @app.route("/contact")
