@@ -21,18 +21,13 @@ body {
   animation-timing-function: linear;
 }
 
-body::before {
-  font-size: 8rem;
-  font-weight: 100;
-  font-style: normal;
-}
-
 /** 
 * Infinite Grid Background Animation
 * By Fotis Koutoupas
 * Github: https://github.com/kootoopas
 * Found on https://www.sliderrevolution.com/resources/css-animated-background/
 */
+
 @-webkit-keyframes bg-scrolling-reverse {
     100% {
         background-position: 50px 50px;
