@@ -1,6 +1,10 @@
 {% extends "base.html"%}
 {% block content %}
 
-This is my portfolio!
+    {% for project in portfolio %}
+        {{ project.name }}
+        {{ project.github_link }}
+        {{ project.live_link }}
+    {% endfor %}      
 
 {% endblock %}
