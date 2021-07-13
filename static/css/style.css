@@ -124,3 +124,13 @@ footer {
 .home-link:hover {
     color: #363636;
 }
+
+/** PORTFOLIO PAGE **/
+
+.portfolio-link {
+    color: #000000;
+}
+
+.portfolio-link:hover {
+    color: #363636;
+}
