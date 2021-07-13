@@ -1,21 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="col-12 text-center">
-    <h3>Languages</h3>
-    {% for language in languages %}
-    {{ language.name }}<br>
-    {% endfor %}<br>
+<div class="container">
+    <div class="row">
+        <h2 class="col-12 col-md-4 mx-auto text-center">Skills</h2>
+        <div class="col-12 col-md-4 text-center">
+            <h3>Languages</h3>
+            {% for language in languages %}
+            {{ language.name }}<br>
+            {% endfor %}<br>
 
-    <h3></p>Libraries</h3>
-    {% for library in libraries %}
-    {{ library.name }}<br>
-    {% endfor %}<br>
+            <h3>Libraries</h3>
+            {% for library in libraries %}
+            {{ library.name }}<br>
+            {% endfor %}<br>
 
-    <h3>Frameworks</h3>
-    {% for framework in frameworks %}
-    {{ framework.name }}<br>
-    {% endfor %}<br>
+            <h3>Frameworks</h3>
+            {% for framework in frameworks %}
+            {{ framework.name }}<br>
+            {% endfor %}<br>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
