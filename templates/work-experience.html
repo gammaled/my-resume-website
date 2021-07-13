@@ -1,13 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="col-12 text-center">
-    {% for work in work_experience %}
-    <div class="col-12 mb-5">
-        <p class="mb-1">{{ work.date }}</p><br>
-        <h3>{{ work.role }}</h3><br>
-        {{ work.company }}<br>
+<div class="container">
+    <div class="row">
+        <h2 class="col-12 col-md-4 mx-auto">Experience</h2>
+        <div class="col-12 col-md-6 text-center">
+            {% for work in work_experience %}
+            <div class="col-12 mb-5">
+                <p class="mb-1">{{ work.date }}</p><br>
+                <h3>{{ work.role }}</h3><br>
+                {{ work.company }}<br>
+            </div>
+            {% endfor %}<br>
+        </div>
     </div>
-    {% endfor %}<br>
 </div>
 {% endblock %}
