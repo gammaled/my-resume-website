@@ -76,6 +76,7 @@ body {
     }
 }
 
+/** BASE TEMPLATE**/
 
 /* Navbar */
 
@@ -110,4 +111,16 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+/** HOMEPAGE **/
+
+/* Links */
+
+.home-link {
+    color: #000000;
+}
+
+.home-link:hover {
+    color: #363636;
 }
