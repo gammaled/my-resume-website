@@ -2,24 +2,22 @@
 {% block content %}
 
     <section>
-    {% for project in portfolio %}
-
         <div class="container">
             <div class="row">
-                <h3 class="col-12 col-md-8 mx-auto text-center">
-                    {{ project.name }}
-                </h3>
-            </div>
-            <div class="row">
-                <div class="col-4 col-md-3 mx-auto text-center mb-5">
-                    <p>
-                        <a href="{{ project.live_link }}">Live Site</a> /
-                        <a href="{{ project.github_link }}">Source Code</a>
-                    </p>
+                <h2 class="col-12 col-md-3 mx-auto">Portfolio</h2> 
+                <div id="education" class="col-12 col-md-6 text-center">
+    {% for project in portfolio %}
+                    <div class="col-12 mb-5">
+                        <h3>{{ project.name }}</h3>
+                        <p>
+                            <a href="{{ project.live_link }}">Live Site</a> / 
+                            <a href="{{ project.github_link }}">Source Code</a>
+                        </p>
+                    </div>
+    {% endfor %}
                 </div>
             </div>
         </div>
-    {% endfor %}
     </section>
 
 {% endblock %}
